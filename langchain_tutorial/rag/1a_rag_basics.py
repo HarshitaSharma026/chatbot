@@ -1,5 +1,5 @@
 """
-In this tutorial, a basic rag example is created in which, a text file is converted into embeddings and store in a vector database (vector store) locally. 
+In this tutorial, a basic rag example is created in which, a text file is converted into embeddings and stored in a vector database (vector store) locally. 
 """
 
 import os 

@@ -1,5 +1,5 @@
 """
-In this program, the basic rag is taken forward to get the relevant documents (that matched well with the  user query) from already created vector stores 
+In this program, the basic rag is taken forward to get the relevant documents (that matched well with the user query) from already created vector stores . 
 """
 
 import os 
