@@ -79,7 +79,7 @@ def user_input(user_question, db_vectors):
 
 def main():
     st.set_page_config("RAG Q/A chatbot")
-    st.header("Chat with PDF")
+    st.header("RAG Chatbot protoype 1")
 
     user_question = st.text_input("Ask a question")
 

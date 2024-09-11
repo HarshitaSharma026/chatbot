@@ -17,3 +17,4 @@ marker-pdf
 unstructured[md]
 llama-parse
 fake-useragent
+langchain-google-firestore

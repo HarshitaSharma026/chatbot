@@ -34,6 +34,11 @@ utility designed to break down large blocks of text into smaller, manageable chu
 ### create_stuff_documents_chain
 Create a chain for passing a list of Documents to a model.
 
+### temperature 
+is a measure of the amount of randomness the model uses to generate responses.
+
+### StrOutputParser()
+Parses the result into a string, (just like how result.content will print)
 
 
 ## ERRORS I ENCOUNTERED

@@ -1,0 +1,127 @@
+Overview
+You must have gone through this question: What is Operating System? An Operating System is a software that acts as an interface between computer hardware components and the user. Every computer system must have at least one operating system to run other programs. Applications like Browsers, MS Office, Notepad Games, etc., need some environment to run and perform its tasks.
+
+What is operating system?
+Operating System lies in the category of system software. It basically manages all the resources of the computer. An operating system acts as an interface between the software and different parts of the computer or the computer hardware. The operating system is designed in such a way that it can manage the overall resources and operations of the computer.
+
+Operating System is a fully integrated set of specialized programs that handle all the operations of the computer. It controls and monitors the execution of all other programs that reside in the computer, which also includes application programs and other system software of the computer. Examples of Operating Systems are Windows, Linux, Mac OS, etc.
+
+An Operating System (OS) is a collection of software that manages computer hardware resources and provides common services for computer programs. The operating system is the most important type of system software in a computer system.
+
+Why use an Operating System?
+The operating system helps in improving the computer software as well as hardware. Without OS, it became very difficult for any application to be user-friendly. The Operating System provides a user with an interface that makes any application attractive and user-friendly. The operating System comes with a large number of device drivers that make OS services reachable to the hardware environment. Each and every application present in the system requires the Operating System. The operating system works as a communication channel between system hardware and system software. The operating system helps an application with the hardware part without knowing about the actual hardware configuration. It is one of the most important parts of the system and hence it is present in every device, whether large or small device.
+
+Once installed, the operating system relies on a vast library of device drivers to tailor OS services to the specific hardware environment. Thus, every application may make a common call to a storage device, but the OS receives that call and uses the corresponding driver to translate the call into actions (commands) needed for the underlying hardware on that specific computer. Today, the operating system provides a comprehensive platform that identifies, configures and manages a range of hardware, including processors; memory devices and memory management; chipsets; storage; networking; port communication, such as Video Graphics Array (VGA), High-Definition Multimedia Interface (HDMI) and Universal Serial Bus (USB); and subsystem interfaces, such as Peripheral Component Interconnect Express (PCIe).
+
+What are the functions of an operating system?
+Various functions which describes what is operating system are:
+
+User Interface (UI)
+Every operating system needs a UI for users and administrators to interact with. There are two main types:
+
+CLI (Command Line Interface): The CLI, or terminal mode window, provides a text-based interface where users rely on the traditional keyboard to enter specific commands, parameters and arguments related to specific tasks.
+GUI (Graphical User Interface): The GUI, or desktop, provides a visual interface based on icons and symbols where users rely on gestures delivered by human interface devices, such as touchpads, touchscreens and mouse devices.
+The GUI is most frequently used by casual or end users that are primarily interested in manipulating files and applications, such as double-clicking a file icon to open the file in its default application. The CLI remains popular among advanced users and system administrators that must handle a series of highly granular and repetitive commands on a regular basis, such as creating and running scripts to set up new personal computers (PCs) for employees.
+
+Application Management
+The OS handles the launch and management of applications, supporting behaviors like timesharing, interruptions handling, memory management, and error handling. It also provides APIs for applications to utilize OS and hardware functions without knowing low-level details.
+
+An operating system can also support APIs that enable applications to utilize OS and hardware functions without the need to know anything about the low-level OS or hardware state. As an example, a Windows API can enable a program to obtain input from a keyboard or mouse; create GUI elements, such as dialog windows and buttons; read and write files to a storage device; and more. Applications are almost always tailored to use the operating system on which the application intends to run.
+
+Additionally, an operating system can perform the following services for applications:
+
+Multitasking:
+
+In multitasking systems, the OS determines the order and time allocation for running multiple applications simultaneously.
+
+Input/Output (I/O) Handling:
+
+Manages communication between applications and hardware devices, such as hard disks, printers, and ports.
+Status Messages:
+
+Sends messages to applications or users about operation status and any encountered errors.
+Batch Job Management:
+
+Offloads the management of batch jobs (e.g., printing), freeing the initiating application from this task.
+Parallel Processing:
+
+On systems with parallel processing capabilities, the OS manages program division for simultaneous execution on multiple processors.
+
+All major computer platforms (hardware and software) require, and sometimes include, an operating system, and operating systems must be developed with different features to meet the specific needs of various form factors.
+
+Device Management
+An operating system plays a crucial role in managing computer hardware devices, ensuring seamless access for applications. Key responsibilities include:
+
+Identification and Configuration:
+
+Identifying and configuring both physical and logical devices for optimal service.
+Device Driver Installation:
+
+Installing corresponding device drivers as the OS recognizes and identifies hardware. These drivers enable the OS and applications to utilize devices without specific knowledge of hardware details.
+
+Printer Management:
+
+Identifying the correct printer and installing the necessary printer drivers. This allows applications to make calls to the printer without using specific codes or commands.
+Management of Various Devices:
+
+Handling diverse devices such as USB ports, networking ports, graphics processing units (GPUs), motherboard chipsets, and storage devices like SAS disk adapters and disks formatted with suitable file systems.
+Standardized Recording:
+
+Recording device configurations in a standardized structure, such as the Windows Registry.
+Driver Updates:
+
+Ensuring the periodic updating of device drivers by manufacturers. The OS should incorporate these updates to ensure optimal device performance and security.
+
+Replacement Handling:
+
+Installing and configuring new drivers when devices are replaced, maintaining smooth functionality during hardware changes.
+Device management by the operating system is essential for creating a seamless interface between applications and the underlying hardware environment.
+Operating System Types and Examples
+General-Purpose Operating System
+A general-purpose OS represents an array of operating systems intended to run a multitude of applications on a broad selection of hardware, enabling a user to run one or more applications or tasks simultaneously. A general-purpose OS can be installed on many different desktop and laptop models and run applications from accounting systems to databases to web browsers to games. General-purpose operating systems typically focus on process (thread) and hardware management to ensure that applications can reliably share the wide range of computing hardware present.
+
+Common Desktop Operating Systems
+Windows:
+
+Microsoft's flagship OS, a standard for home and business computers.
+Introduced in 1985, known for its user-friendly interface.
+
+Mac OS:
+
+Operating system for Apple's Macintosh line of PCs and workstations.
+Unix:
+
+Multiuser OS designed for flexibility.
+Originated in the 1970s, one of the first written in C language.
+Linux:
+
+Unix-like OS designed to offer a free or low-cost alternative.
+Known for efficiency and fast performance.
+Mobile Operating System
+Mobile operating systems are designed to accommodate the unique needs of mobile computing and communication-centric devices, such as smartphones and tablets. Mobile devices typically offer limited computing resources compared to traditional PCs, and the OS must be scaled back in size and complexity in order to minimize its own resource use, while ensuring adequate resources for one or more applications running on the device. Mobile operating systems tend to emphasize efficient performance, user responsiveness and close attention to data handling tasks, such as supporting media streaming. Apple iOS and Google Android are examples of mobile operating systems.
+
+Examples:
+Apple iOS
+Google Android
+
+Embedded Operating System
+Not all computing devices are general purpose. A huge assortment of dedicated devices -- including home digital assistants, automated teller machines (ATMs), airplane systems, retail point of sale (POS) terminals and internet of things (IoT) devices -- includes computers that require an operating system. The principal difference is that the associated computing device only does one major thing, so the OS is highly stripped down and dedicated to both performance and resilience. The OS should run quickly, not crash, and handle all errors gracefully in order to continue operating in all circumstances. In most cases, the OS is provided on a chip that is incorporated into the actual device. A medical device used in a patient's life support equipment, for example, will employ an embedded OS that must run reliably in order to keep the patient alive. Embedded Linux is one example of an embedded OS.
+
+Example:
+Embedded Linux
+
+Network Operating System
+A network operating system (NOS) is another specialized OS intended to facilitate communication between devices operating on a local area network (LAN). A NOS provides the communication stack needed to understand network protocols in order to create, exchange and decompose network packets. Today, the concept of a specialized NOS is largely obsolete because other OS types largely handle network communication. Windows 10 and Windows Server 2019, for example, include comprehensive networking capabilities. The concept of a NOS is still used for some networking devices, such as routers, switches and firewalls, and manufacturers may employ proprietary NOSes, including Cisco Internetwork Operating System (IOS), RouterOS and ZyNOS.
+
+Examples:
+Cisco Internetwork Operating System (IOS)
+RouterOS
+ZyNOS
+
+Real-Time Operating System
+When a computing device must interact with the real world within constant and repeatable time constraints, the device manufacturer may opt to use a real-time operating system (RTOS). For example, an industrial control system may direct the operations of a sprawling factory or power plant. Such a facility will produce signals from myriad sensors and also send signals to operate valves, actuators, motors and countless other devices. In these situations, the industrial control system must respond quickly and predictably to changing real-world conditions -- otherwise, disaster may result. An RTOS must function without buffering, processing latencies and other delays, which are perfectly acceptable in other types of operating systems. Two examples of RTOSes include FreeRTOS and VxWorks.
+
+Examples:
+FreeRTOS
+VxWorks
+The distinctions between these OS types are not absolute, and some operating systems may share characteristics with others. For instance, general-purpose OSs often include networking capabilities similar to traditional NOS, and embedded OSs may possess attributes of real-time OSs. Similarly, mobile OSs can run multiple apps concurrently like general-purpose operating systems.
