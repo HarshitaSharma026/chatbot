@@ -1,0 +1,50 @@
+Overview
+The OSI model stands for Open Systems Interconnection model. The OSI model is also known as the ISO-OSI model as it was developed by ISO (International Organization for Standardization). It is a conceptual reference model that describes the entire flow of information from one computer to the other computer.
+
+The OSI model is a 7-layered model, so it is also known as a 7-layered architecture model. The basic idea behind layered architecture is to divide the design into smaller pieces. Most networks are organized in a series of layers to reduce the design complexity.
+What is the OSI Model?
+Open System Interconnection (OSI) is a reference model developed in 
+1984 by the International Organization for Standardization that specifies how information from one computer's software application passes through physical media to another computer's software application.
+
+OSI reference model can be imagined to be a Math assignment of 7 questions divided amongst 7 friends. Instead of one person doing the entire task, we have 7 friends, each taking up one question, thereby reducing the time to complete the task at hand. Each question is independent of the other, and hence each friend can independently answer the questions. Moreover, OSI was intended to serve as a design standard to ensure uninterrupted global communication between computers built on different architectures. Hence, no matter the language each friend understands, be it Spanish or English, and the said friend would be able to understand the question since it is Math.
+
+There are numerous users around the world, and to ensure national and worldwide communication, the ISO developed a conceptual model named the OSI model. We can define the OSI model as a conceptual reference model that describes the entire flow of information from one computer to the other computer. The OSI model is a 7-layered model, so it is also known as a 7-layered architecture model.
+
+Refer to the image below to see the complete representation of the OSI model.
+The first three layers are known as the software layer, and the last 3 layers are known as the hardware layer. The transport layer is the heart of the OSI model. The data is sent through the physical layer to the application layer (at the sender's end). On the other hand, the data is received through the application layer to the physical layer (at the receiver's end).
+
+The basic idea behind layered architecture is to divide the design into smaller pieces. Most networks are organized in a series of layers to reduce the design complexity. The benefits of this layered division of
+
+the OSI model is discussed below:
+
+The change in one layer does not affect the other layers.
+The layered architecture reduces the complexity by dividing the task in a manageable way.
+The layered architecture provides abstraction from other layers.
+Due to the abstraction, any layer can be changed independently.
+Each layer can be changed, tested, and analyzed independently.
+Note :
+Open systems are the systems that are open to communicating and exchanging information over the networks.
+
+The 7 Layers of the OSI Model
+As we know, the OSI model is a layered framework for designing network systems that allows communication between all types of computer systems.
+
+Before learning about various layers of the OSI model, let us first know the basic principles of dividing the OSI model :
+
+The layers should be created only where there is a need for abstraction.
+Each layer of the OSI model should form a well-defined structure.
+Each layer should be defined by keeping in mind the ISO standard protocols.
+The layer's boundary should be chosen to minimize the information flow across the various interfaces of the layers.
+The number of layers should not be very large (so that the distinct functions are not thrown together), and the number of layers should not be very less (so that features become unwieldy).
+The OSI model is divided into 7 layers. Refer to the image provided below to see the basic overview of the various layers of the OSI model.
+
+The lower layer is responsible for all the data transfer issues and is also known as the Hardware Layer. The layers present in the lower layer of the OSI Model are :
+
+Network Layer
+Data Link Layer
+Physical Layer.
+The upper layer is responsible for all the application-related issues and is also known as Software Layer. The layers present in the upper layer of the OSI Model are:
+Application Layer
+Presentation Layer
+Session Layer
+Transport Layer.
+Let us now discuss the various layers of the OSI model in detail.
